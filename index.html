@@ -1,1 +1,286 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ame Salinas | Makeup Artist Profesional</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #fafafa;
+      color: #222;
+    }
+    header {
+      background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    h2 {
+      font-family: 'Playfair Display', serif;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 15px;
+      padding: 25px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+      text-align: center;
+    }
+    .card h3 {
+      margin-bottom: 10px;
+    }
+    .price {
+      color: #bfa06a;
+      font-weight: 500;
+      margin-top: 10px;
+    }
+    .about {
+      text-align: center;
+      max-width: 700px;
+      margin: auto;
+    }
+    .cta {
+      background-color: #111;
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    .cta a {
+      background: #bfa06a;
+      color: #111;
+      padding: 15px 30px;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: 500;
+      display: inline-block;
+      margin-top: 20px;
+    }
+    footer {
+      background: #2c2c2c;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+    .whatsapp-float {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 25px;
+      right: 25px;
+      background-color: #25D366;
+      color: #fff;
+      border-radius: 50%;
+      text-align: center;
+      font-size: 30px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+    }
+
+    .whatsapp-float:hover {
+      transform: scale(1.05);
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 15px;
+      object-fit: cover;
+      height: 350px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+    }
+</style>
+</head>
+<body>
+
+  <header>
+    <h1>Ame Salinas</h1>
+    <p>Luxury Makeup Artist · Atlanta & CDMX</p>
+    <p style="margin-top:10px; font-size:1rem;">📞 +52 55 2390 2853</p>
+  </header>
+
+  <section>
+    <h2>Servicios</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Maquillaje Social</h3>
+        <p>Ideal para eventos, fiestas y sesiones fotográficas.</p>
+        <div class="price">Desde $XXX</div>
+      </div>
+      <div class="card">
+        <h3>Maquillaje de Novia</h3>
+        <p>Look personalizado y de larga duración para tu gran día.</p>
+        <div class="price">Desde $XXX</div>
+      </div>
+      <div class="card">
+        <h3>Peinado Profesional</h3>
+        <p>Ondas, recogidos y estilos modernos adaptados a ti.</p>
+        <div class="price">Desde $XXX</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+  <h2>Sobre Mí · About Me</h2>
+  <div class="about">
+    <p>
+      <strong>ES:</strong> Soy <strong>Ame Salinas</strong>, makeup artist profesional especializada en looks de lujo y estilo minimalista.
+      Trabajo en <strong>Atlanta y Ciudad de México</strong>, ofreciendo maquillaje y peinado de alta gama para novias y eventos especiales,
+      cuidando cada detalle para lograr un acabado elegante, duradero y sofisticado.
+    </p>
+    <p style="margin-top:20px;">
+      <strong>EN:</strong> I am <strong>Ame Salinas</strong>, a professional luxury makeup artist specialized in clean, elegant and minimalist looks.
+      Based in <strong>Atlanta and Mexico City</strong>, I provide high-end makeup and hairstyling services for brides and special events,
+      focusing on flawless skin, sophistication and long-lasting results.
+    </p>
+  </div>
+</section>
+  
+  <section>
+  <h2>Bridal Luxury</h2>
+
+  <p style="text-align:center; max-width:700px; margin:auto;">
+    <strong>ES:</strong> Maquillaje de novia de alta gama diseñado para realzar tu belleza natural.
+    Trabajo la piel de forma impecable, con tonos sofisticados y un acabado elegante y duradero,
+    para que luzcas perfecta y segura durante todo tu gran día.
+  </p>
+
+  <p style="text-align:center; max-width:700px; margin:30px auto 0;">
+    <strong>EN:</strong> High-end bridal makeup designed to enhance your natural beauty.
+    I focus on flawless skin, sophisticated tones, and a timeless, long-lasting finish,
+    so you can feel confident and radiant throughout your wedding day.
+  </p>
+</section>
+
+<section>
+  <h2>Bridal Packages</h2>
+
+  <div class="services">
+    <div class="card">
+      <h3>Gold Bridal</h3>
+      <p>
+        ES: Maquillaje profesional el día del evento.<br>
+        EN: Professional bridal makeup on the wedding day.
+      </p>
+      <div class="price">Desde $XXX</div>
+    </div>
+
+    <div class="card">
+      <h3>Platinum Bridal</h3>
+      <p>
+        ES: Prueba + maquillaje el día del evento.<br>
+        EN: Trial + wedding day makeup.
+      </p>
+      <div class="price">Desde $XXX</div>
+    </div>
+
+    <div class="card">
+      <h3>Luxury VIP</h3>
+      <p>
+        ES: Servicio premium completo para novias exclusivas.<br>
+        EN: Full luxury bridal experience.
+      </p>
+      <div class="price">Desde $XXX</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Editorial Gallery</h2>
+  <p style="text-align:center; max-width:700px; margin:auto; color:#555;">
+    A curated selection of luxury bridal and social makeup looks, focused on clean beauty,
+    timeless elegance and flawless skin.
+  </p>
+
+  <div class="gallery" style="margin-top:40px;">
+    <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9" alt="Luxury bridal makeup">
+    <img src="https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb" alt="Elegant makeup look">
+    <img src="https://images.unsplash.com/photo-1519741497674-611481863552" alt="Wedding makeup">
+    <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e" alt="Soft glam makeup">
+  </div>
+</section>
+
+  
+
+
+  <section>
+  <h2>Book Your Appointment · Reserva tu cita</h2>
+  <form style="max-width:600px; margin:40px auto 0; display:grid; gap:15px;">
+    <input type="text" placeholder="Full Name / Nombre" required style="padding:15px; border-radius:8px; border:1px solid #ddd;">
+    <input type="email" placeholder="Email" required style="padding:15px; border-radius:8px; border:1px solid #ddd;">
+    <input type="tel" placeholder="Phone / WhatsApp" required style="padding:15px; border-radius:8px; border:1px solid #ddd;">
+    <select required style="padding:15px; border-radius:8px; border:1px solid #ddd;">
+      <option value="">Service / Servicio</option>
+      <option>Bridal Makeup</option>
+      <option>Social Makeup</option>
+      <option>Hair Styling</option>
+      <option>Luxury VIP Bridal</option>
+    </select>
+    <textarea placeholder="Event details / Detalles del evento" rows="4" style="padding:15px; border-radius:8px; border:1px solid #ddd;"></textarea>
+    <button type="submit" style="background:#bfa06a; color:#111; padding:15px; border:none; border-radius:30px; font-weight:500; cursor:pointer;">Send Request</button>
+  </form>
+</section>
+
+<section>
+  <h2>Luxury Bridal Makeup Artist in Atlanta</h2>
+  <p style="text-align:center; max-width:800px; margin:auto; font-size:0.95rem; color:#555;">
+    Ame Salinas is a luxury bridal makeup artist based in Atlanta and Mexico City, specializing in
+    high-end bridal makeup, destination weddings and exclusive events across the United States.
+    Known for elegant, clean and timeless beauty, she works with brides seeking a premium experience.
+  </p>
+</section>
+
+<section>
+  <h2>Sígueme en redes · Follow Me</h2>
+  <p style="text-align:center">Discover my latest work, reels and beauty content</p>
+  <p style="text-align:center">
+    <a href="https://www.instagram.com/ameyallysalinas_makeup?igsh=b2ZwY2RqajVmdjF0" target="_blank">Instagram</a> ·
+    <a href="https://www.tiktok.com/@ameyallysalinas5?_r=1&_t=ZP-92YoOYoFyaE" target="_blank">TikTok</a>
+  </p>
+</section>
+
+  
+  <section class="cta">
+  
+
+  
+
+
+  <footer>
+    <p>© 2025 Ame Salinas Makeup Artist · Todos los derechos reservados</p>
+  </footer>
+
+</body>
+</html>
 
